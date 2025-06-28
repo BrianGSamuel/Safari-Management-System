@@ -21,6 +21,7 @@ const PublicSafaris = () => {
         console.error('Error fetching safaris:', err);
         setError('Failed to load safari packages');
         setLoading(false);
+        
       }
     };
 
